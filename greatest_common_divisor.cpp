@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 using namespace std;
-
+//最大公约数是 满足a%c=0 b%c=0的C的最大值 
 //欧几里得法求最大公约数
 int gcd(int a,int b)
 {
