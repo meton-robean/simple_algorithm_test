@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int partition(int s[],int low ,int high)
+int partition(int s[],int low ,int high) //挖坑填坑
 {
     int i=low;
     int j=high;
