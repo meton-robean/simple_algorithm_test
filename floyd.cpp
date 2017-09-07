@@ -34,7 +34,7 @@ int main()
                 {
                     if(grap[i][j]>grap[i][k]+grap[k][j])
                     {
-                        grap[i][j]>grap[i][k]+grap[k][j];
+                        grap[i][j]=grap[i][k]+grap[k][j];
                     }
                 }
             }
